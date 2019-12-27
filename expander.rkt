@@ -9,7 +9,7 @@
 				 PARSE-TREE))
 
 (define-macro (agatha-program AGATHA-LIST)
-			  #'(displayln AGATHA-LIST))
+			  #'(void AGATHA-LIST))
 (provide agatha-program)
 
 (define-macro (agatha-list AGATHA-EXP ...)
