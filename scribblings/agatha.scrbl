@@ -16,6 +16,14 @@ f = A ^ B;
 }
 
 Assim o operador #(avalia expressão) cria a tabela e exibe o resultado.
+
+Podemos Compor funções:
+@verbatim{
+#lang agatha
+f = A ^ B;
+g = f ^ C;
+}
+
 @section{Operadores}
 Temos os Operadores basicos de Lógica.
 @verbatim{

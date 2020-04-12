@@ -13,7 +13,7 @@
 		 (check-true (agatha-token? (token 'TOKENTOKEN "Olá")))
 		 (check-false (agatha-token? 42))
 		 )
-(define-lex-abbrev operators (:or "=" "^" "+" "¬" "->" "#"))
+(define-lex-abbrev operators (:or "=" "^" "+" "¬" "->" "#" "!"))
 (define operators-names (hash
 						  "=" "="
 						  "^" "and"
